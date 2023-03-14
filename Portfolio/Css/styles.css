@@ -577,8 +577,7 @@ textarea {
         display: flex;
         flex-direction: column;
     }
-
-    /* contact */
+/* contact */
     #contact {
 
         padding-top: 8rem;
