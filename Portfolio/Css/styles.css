@@ -1,0 +1,659 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bg-area {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.048)),  url(../Assets/a3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.padding-area {
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-container-l {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    text-align: center;
+}
+.hero-text h2 {
+
+    font-family: "poppins";
+    font-size: 36px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.hero-text h2 span {
+
+    color: red;
+}
+
+.hero-text p {
+
+    font-family: "poppins";
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.hero-text button {
+
+    padding: 10px 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+#service, #project {
+
+    padding-top: 8rem;
+}
+
+#service {
+
+    padding-bottom: 8rem;
+}
+
+.sv-title {
+
+    font-family: "poppins";
+    font-size: 24px;
+    text-align: center;
+}
+
+.sv-box-container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.sv-box-col {
+
+    text-align: center;
+    padding: 10px;
+    background-color: orange;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.sv-box-title h2 {
+
+    font-family: "poppins";
+    font-size: 18px;
+}
+
+.sv-box-title p {
+
+    font-family: "poppins";
+    font-weight: lighter;
+    font-size: 14px;
+}
+/* about section */
+.abt-img img {
+
+    max-width: 100%;
+}
+
+.abt-text h2 {
+
+    font-family: "poppins";
+    font-size: 30px;
+}
+
+.abt-text p {
+
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: lighter;
+    max-width: 380px;
+}
+/* project section */
+.pj-title {
+
+    font-family: "poppins";
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.items {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4em;
+    justify-content: space-around;
+}
+.pj-img img {
+
+    max-width: 250px;
+}
+
+/* footer */
+footer {
+
+    background-color: black;
+    margin-top: 4rem;
+}
+.ft-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ft-content, h3, p {
+
+    padding-top: 10px;
+}
+
+.ft-content h3 {
+
+    font-family: "poppins";
+    font-size: 18px;
+    color: white;
+}
+
+.ft-content h3 span {
+
+    color: red;
+}
+
+.ft-content p {
+
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+}
+
+.ft-media-row {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    color: white;
+}
+/* small screen styling */
+@media (max-width: 768px) {
+    header {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .logo {
+
+        font-family: "poppins";
+        font-weight: 900;
+        color: red;
+    }
+
+    .logo span {
+
+        color: orange;
+    }
+
+    .sidenav {
+        
+        height: 100%; /* 100% Full-height */
+        display: none;
+        text-align: center;
+        width: 0px;  
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: black; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      }
+
+      /* The navigation menu links */
+    .sidenav .nav-links, .hire-me {
+        
+        text-decoration: none;
+        padding: 10px;
+        font-family: "poppins";
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+  }
+.burger {
+
+    font-size: 28px;
+    transition: all ease;
+    color: white;
+}  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 28px;
+    color: white;
+    padding-top: 5px;
+    margin-left: 50px;
+  }
+
+  .social-media-row {
+
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .social-media-row a {
+
+    color: white;
+
+  }
+
+   /*about section */
+   .abt-content {
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* contact */
+#contact {
+
+    padding-top: 8rem;
+}
+
+/* contact */
+.contact-container-xxl {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.048)), url(../Assets/a3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.contact-content {
+
+    max-width: 100%;
+    padding: 20px 20px;
+    margin: 0;
+}
+
+  /* .contact-form {
+
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center; 
+} */
+
+.contact-us-h2 {
+
+    text-align: center;
+    font-family: "poppins";
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.field-control div {
+
+    margin-bottom: 10px;
+}
+.field-control div input {
+
+    padding: 15px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.flex-field {
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+textarea {
+
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    
+}
+
+.submit-wrapper input {
+
+    padding: 10px 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    border-radius: 4px;
+    transition: all ease;
+    width: 100px;
+}
+}
+
+/*large screen styling */
+@media (min-width: 1024px) {
+    .closebtn {
+
+        display: none;
+    }
+
+    .menu-btn-wrapper, .social-media-row {
+
+        display: none;
+    }
+
+    header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    .header-col-1 {
+
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .logo {
+
+        font-family: "poppins";
+        font-weight: 900;
+        font-size: 32px;
+        color: red;
+    }
+
+    .logo span {
+
+        color: orange;
+    }
+
+    .sidenav .nav-links {
+
+        text-decoration: none;
+        font-family: "poppins";
+        font-size: 18px;
+        color: white;
+        transition: all ease;
+        padding: 5px;
+    }
+
+    .hire-me {
+
+        background-color: dodgerblue;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: white;
+    }
+    /* about section styling */
+    .abt-content {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* contact */
+    #contact {
+
+        padding-top: 8rem;
+    }
+    .contact-container-xxl {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.048)), url(../Assets/a3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    .contact-content {
+
+        background-color: white;
+        max-width: 500px;
+        padding: 20px 10px;
+        margin: 20px;
+    }
+
+    .contact-form {
+
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us-h2 {
+
+        text-align: center;
+        font-family: "poppins";
+        font-size: 24px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .field-control div {
+
+        margin-bottom: 10px;
+    }
+    .field-control div input {
+
+        padding: 15px 15px;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+
+    .flex-field {
+
+        display: flex;
+        gap: 20px;
+    }
+    
+
+    textarea {
+
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        
+    }
+
+    .submit-wrapper input {
+
+        padding: 10px 10px;
+        border: none;
+        background-color: orangered;
+        color: white;
+        border-radius: 4px;
+        transition: all ease;
+        width: 100px;
+    }
+   
+}
+
+/* tablets styling */
+@media (min-width:769px) and (max-width: 1023px) {
+    .closebtn {
+
+        display: none;
+    }
+
+    .menu-btn-wrapper, .social-media-row {
+
+        display: none;
+    }
+
+    header {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    .header-col-1 {
+
+        display: flex;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .logo {
+
+        font-family: "poppins";
+        font-weight: 900;
+        font-size: 32px;
+        color: red;
+    }
+
+    .logo span {
+
+        color: orange;
+    }
+
+    .sidenav .nav-links {
+
+        text-decoration: none;
+        font-family: "poppins";
+        font-size: 18px;
+        color: white;
+        transition: all ease;
+        padding: 5px;
+    }
+
+    .hire-me {
+
+        background-color: dodgerblue;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: white;
+    }
+    /*about section */
+    .abt-content {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* contact */
+    #contact {
+
+        padding-top: 8rem;
+    }
+    .contact-container-xxl {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.623),rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.048)), url(../Assets/a3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+    }
+    .contact-content {
+
+        background-color: white;
+        max-width: 500px;
+        padding: 20px 10px;
+        margin: 20px;
+    }
+
+    .contact-form {
+
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-us-h2 {
+
+        text-align: center;
+        font-family: "poppins";
+        font-size: 24px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .field-control div {
+
+        margin-bottom: 10px;
+    }
+    .field-control div input {
+
+        padding: 15px 15px;
+        border: none;
+        border-radius: 4px;
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+
+    .flex-field {
+
+        display: flex;
+        gap: 20px;
+    }
+    
+
+    textarea {
+
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        
+    }
+
+    .submit-wrapper input {
+
+        padding: 10px 10px;
+        border: none;
+        background-color: orangered;
+        color: white;
+        border-radius: 4px;
+        transition: all ease;
+        width: 100px;
+    }
+}
