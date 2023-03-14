@@ -220,14 +220,14 @@ footer {
         display: none;
         text-align: center;
         width: 0px;  
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0; /* Stay at the top */
+        position: fixed; 
+        z-index: 1;
+        top: 0; 
         left: 0;
-        background-color: black; /* Black*/
-        overflow-x: hidden; /*
-        padding-top: 60px; /*
-        transition: 0.5s; /* 
+        background-color: black;
+        overflow-x: hidden; 
+        padding-top: 60px; 
+        transition: 0.5s; 
       }
 
      
