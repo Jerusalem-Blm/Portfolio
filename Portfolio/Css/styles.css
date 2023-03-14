@@ -225,12 +225,12 @@ footer {
         top: 0; /* Stay at the top */
         left: 0;
         background-color: black; /* Black*/
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+        overflow-x: hidden; /*
+        padding-top: 60px; /*
+        transition: 0.5s; /* 
       }
 
-      /* The navigation menu links */
+     
     .sidenav .nav-links, .hire-me {
         
         text-decoration: none;
@@ -242,9 +242,9 @@ footer {
         transition: 0.3s;
     }
 
-    /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
+   
+.sidenav .nav-links:hover {
+    color: orange;
   }
 .burger {
 
@@ -471,6 +471,7 @@ textarea {
     .field-control div {
 
         margin-bottom: 10px;
+        margin-right: 20px;
     }
     .field-control div input {
 
@@ -618,6 +619,7 @@ textarea {
     .field-control div {
 
         margin-bottom: 10px;
+        margin-right: 20px;
     }
     .field-control div input {
 
